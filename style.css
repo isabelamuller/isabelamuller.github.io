@@ -1,7 +1,44 @@
-.dia1 { 
+.dia1 {
     color: #96c91f;
     font-family: comic sans;
-}
-h1 {
+  }
+  
+  h1 {
     text-align: center;
-}
+  }
+  
+  .girar:hover {
+    animation: rotate-effect 1s linear 3;
+  }
+  
+  @keyframes rotate-effect {
+    0% {
+      transform: rotate(0);
+    }
+  
+    100% {
+      transform: rotate(-360deg);
+    }
+  }
+  
+  .girar {
+    width: 150px;
+    height: 150px;
+  }
+  
+  .dia2 {
+    color: rgb(211, 62, 119);
+    font-family: comic sans;
+  }
+  
+  body {
+    background-color: rgb(255, 241, 245);
+  }
+  
+  .container {
+    display: flex;
+  }
+  
+  .box {
+    margin: 10px;
+  }
